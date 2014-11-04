@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  AccountViewController.m
 //  NSUserDefaults, Segues and Protocols Challenge Solution
 //
 //  Created by Matthew Linaberry on 11/4/14.
 //  Copyright (c) 2014 Matthew Linaberry. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CreateAccountViewController.h"
 
-@interface ViewController ()
+@interface CreateAccountViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CreateAccountViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
