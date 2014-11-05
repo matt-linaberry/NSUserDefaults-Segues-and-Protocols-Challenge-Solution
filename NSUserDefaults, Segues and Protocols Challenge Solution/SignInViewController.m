@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginButtonClick:(UIButton *)sender {
+}
+
+- (IBAction)createAccountButtonClick:(UIBarButtonItem *)sender {
+}
 @end

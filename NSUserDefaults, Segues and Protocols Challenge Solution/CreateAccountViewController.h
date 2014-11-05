@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CreateAccountViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (strong, nonatomic) IBOutlet UITextField *confirmPasswordTextField;
+- (IBAction)createAccountButton:(UIButton *)sender;
+- (IBAction)cancelButton:(UIButton *)sender;
 
 @end

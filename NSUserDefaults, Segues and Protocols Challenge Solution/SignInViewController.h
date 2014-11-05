@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SignInViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+- (IBAction)loginButtonClick:(UIButton *)sender;
+- (IBAction)createAccountButtonClick:(UIBarButtonItem *)sender;
 
 
 @end

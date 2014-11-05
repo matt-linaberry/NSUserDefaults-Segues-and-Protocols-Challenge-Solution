@@ -34,4 +34,9 @@
 }
 */
 
+- (IBAction)createAccountButton:(UIButton *)sender {
+}
+
+- (IBAction)cancelButton:(UIButton *)sender {
+}
 @end

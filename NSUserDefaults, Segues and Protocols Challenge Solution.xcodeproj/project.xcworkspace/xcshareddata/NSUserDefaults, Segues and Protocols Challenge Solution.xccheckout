@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>74928A6E-5D17-44A7-A909-9750BDD2FEA7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSUserDefaults, Segues and Protocols Challenge Solution</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>853D13901A92DF44E0D5F90511933BCAF48DC0DA</key>
+		<string>https://github.com/matt-linaberry/NSUserDefaults-Segues-and-Protocols-Challenge-Solution.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSUserDefaults, Segues and Protocols Challenge Solution.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>853D13901A92DF44E0D5F90511933BCAF48DC0DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/matt-linaberry/NSUserDefaults-Segues-and-Protocols-Challenge-Solution.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>853D13901A92DF44E0D5F90511933BCAF48DC0DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>853D13901A92DF44E0D5F90511933BCAF48DC0DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NSUserDefaults,%20Segues%20and%20Protocols%20Challenge%20Solution</string>
+		</dict>
+	</array>
+</dict>
+</plist>
