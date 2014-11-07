@@ -7,6 +7,7 @@
 //
 
 #import "SignInViewController.h"
+#import "CreateAccountViewController.h"
 
 @interface SignInViewController ()
 
@@ -25,8 +26,19 @@
 }
 
 - (IBAction)loginButtonClick:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:self];
 }
 
-- (IBAction)createAccountButtonClick:(UIBarButtonItem *)sender {
+- (IBAction)createAccountClick:(UIBarButtonItem *)sender {
+    [self performSegueWithIdentifier:@"toCreateAccountViewAccountSegue" sender:self];
+}
+
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.destinationViewController isKindOfClass:[CreateAccountViewController class]]) {
+        CreateAccountViewController *createAccountVC = segue.destinationViewController;
+        //createAccountVC.delegate = self;
+    }
 }
 @end

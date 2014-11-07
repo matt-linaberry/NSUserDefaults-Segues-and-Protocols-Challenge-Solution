@@ -12,8 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 - (IBAction)loginButtonClick:(UIButton *)sender;
-- (IBAction)createAccountButtonClick:(UIBarButtonItem *)sender;
-
+- (IBAction)createAccountClick:(UIBarButtonItem *)sender;
 
 @end
 
