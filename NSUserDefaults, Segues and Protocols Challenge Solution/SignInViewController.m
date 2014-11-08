@@ -38,7 +38,18 @@
 {
     if ([segue.destinationViewController isKindOfClass:[CreateAccountViewController class]]) {
         CreateAccountViewController *createAccountVC = segue.destinationViewController;
-        //createAccountVC.delegate = self;
+        createAccountVC.delegate = self;
     }
+}
+
+# pragma mark - CreateAccountDelegate methods.
+- (void) didCancel
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void) didCreateAccount
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

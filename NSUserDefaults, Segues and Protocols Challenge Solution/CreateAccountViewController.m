@@ -35,8 +35,10 @@
 */
 
 - (IBAction)createAccountButton:(UIButton *)sender {
+    [self.delegate didCreateAccount];
 }
 
 - (IBAction)cancelButton:(UIButton *)sender {
+    [self.delegate didCancel];
 }
 @end
