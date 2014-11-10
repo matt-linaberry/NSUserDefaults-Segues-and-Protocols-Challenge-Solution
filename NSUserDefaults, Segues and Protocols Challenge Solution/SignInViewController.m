@@ -26,11 +26,11 @@
 }
 
 - (IBAction)loginButtonClick:(UIButton *)sender {
-    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:self];
+    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
 }
 
 - (IBAction)createAccountClick:(UIBarButtonItem *)sender {
-    [self performSegueWithIdentifier:@"toCreateAccountViewAccountSegue" sender:self];
+    [self performSegueWithIdentifier:@"toCreateAccountViewAccountSegue" sender:sender];
 }
 
 
