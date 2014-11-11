@@ -26,7 +26,21 @@
 }
 
 - (IBAction)loginButtonClick:(UIButton *)sender {
-    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
+    NSString *userName = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    NSString *password = [[NSUserDefaults standardUserDefaults] objectForKey:USER_PASSWORD];
+    
+    // check the stuff entered is in the NSUserDefaults
+    
+    if ([self.userNameTextField.text isEqualToString:userName] && [self.passwordTextField.text isEqualToString:password])
+    {
+        [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
+    }
+    else
+    {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Username/password is not found!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+    }
+    
 }
 
 - (IBAction)createAccountClick:(UIBarButtonItem *)sender {
